@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{background-color: #C5D9D5;}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: #C5D9D5;
+
+}
+
+h1 {
+    font-size: 5.5em;
+    color: #365959;
+}
+
+h2 {
+    font-size: 2.7em;
+    color: #5D8C8C;
+}
+
+h3 {
+    font-size: 2em;
+    color: #5D8C8C;
+}
+
+p {
+    font-size: 1.25em;
+    color: #1a2d2d;
+}
+
+p.logo {background-image: url(/Images/p.png);}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+
+button:hover {
+    background: color #84b09b;
+    ;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+}
+
+header{
+    background-color: #E5E4E9;
+    background-image: url(../Images/fondo\ web.png);
+}
+
+
+header a {
+    padding: 0px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #365959;
+}
+
+header a:hover {
+    color: #1a2d2d;
+}
+
+
+header.container {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    flex-direction: row;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.container ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    text-align: left, center;
+    flex-wrap: wrap;
+}
+
+.container li:hover {
+    background: #C5D9D5;
+}
+
+.container li a {
+    display: block;
+    padding: 0.5px 20px;
+    color: #365959;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+
+html{scroll-behavior: smooth;}
+
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px #1a2d2d;
+    box-shadow: 2px 2px 10px #ffd;
+    color: #E5E4E9;
+    background-color: #365959;
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{
+    color: #8ABFB0;
+}
+
+
+header li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+
+
+header.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+header.nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header.a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+header a:hover{
+    color: #bc4da8;
+}
+
+#bienvenida{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #F2F2F2;
+}
+
+#bienvenida h1{
+    color: pink;
+}
+
+#bienvenida button{
+    font-size: 1.75em;
+}
+
+#sobre-mi{
+background-color: #C5D9D5;
+}
+
+#sobre-mi.container{
+    text-align: center;
+    padding: 200-x 12px;
+    flex-direction: row;
+}
+
+#mi-portfolio{
+    background-color: #F2F2F2;
+    color: #E5E4E9;    
+}
+
+#mi-portfolio.container{
+    padding: 150px 12px;
+
+}
+
+#mi-portfolio h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#mi-portfolio p{
+    display: none;
+}
+
+#mi-porfolio .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    background-repeat: 100% 150px ;
+
+}
+
+.carta :first-child{
+    background-color:#F2F2F2;
+    flex-direction: column;
+}
+
+.carta :nth-child(2){
+    background-color: #F2F2F2;
+    flex-direction: column;
+}
+
+.carta :first-child(3){
+    background-color:#F2F2F2;
+    flex-direction: column;
+}
+
+#proyecto-dm.container{
+    text-align: center;
+    padding: 200px 12px;
+    background-color: #C5D9D5;
+}
+
+#contacto{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #F2F2F2;
+color: #365959;
+height:80vh;}
+
+footer {
+    text-align: center;
+    padding-bottom: 5%;
+    background-image: url(../Images/fondo\ web.png);
+    font-style: italic;
+    color: #E5E4E9;
+    text-align: end;
+}
+
+footer p{
+    margin: 0%;
+    color: #E5E4E9;
+    padding: 12px;
+}
+
+footer.container{
+height: 150px;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+
+@media (min-width:720px) {
+
+    header{
+        position: relative;
+        width: 100%;
+    }
+    header.container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #sobre-mi.container{
+
+    }
+   
+}
+
+header{
+    padding-top: 5px;
+}
+
+.carousel{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
